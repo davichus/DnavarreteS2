@@ -71,6 +71,7 @@ namespace DnavarreteS2
             catch (Exception ex)
             {
                 //txtNseguimiento.Text = "0";
+
             }
           
           
