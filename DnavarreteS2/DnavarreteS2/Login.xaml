@@ -4,17 +4,25 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="DnavarreteS2.Login">
     <ContentPage.Content>
-        <ScrollView>
-        <StackLayout>
-            <Label Text="Semana Dos Moviles" FontSize="18" TextColor="Blue" HorizontalTextAlignment="Center"/>
-            <Entry x:Name="txtDato1" Placeholder="Ingresa el dato 1" Keyboard="Numeric"/>
-            <Entry x:Name="txtDato2" Placeholder="Ingresa el dato 2" Keyboard="Numeric" />
-            <Entry x:Name="txtDato3" Placeholder="Ingresa el dato 3" Keyboard="Numeric" />
-            <Entry x:Name="txtResultado" Placeholder="Resultado" IsEnabled="False" />
-            <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
-
-            </StackLayout>
-         </ScrollView>
+          <ScrollView>
+         <StackLayout Orientation="Vertical" Padding="30" Spacing="40">  
+            <BoxView HeightRequest="10"/>  
+            <Image HorizontalOptions="Center" WidthRequest="300" Source="tch.png"/>  
+            
+                 <Label TextColor="#3399ff" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Iniciar Sesión" FlexLayout.AlignSelf="Center" FontSize="25"/>
+                    <Entry x:Name="txtUsuario"  Placeholder="Ingrese Usuario"   
+                            HeightRequest="40"
+                           />  
+                    <Entry x:Name="txtContrasena"  Placeholder="Ingrese Contraseña"   
+                            HeightRequest="40"   
+                           IsPassword="True"  
+                           />  
+           
+              <Button x:Name="btnIniciar" Text="Iniciar Sesion" Clicked="btnIniciar_Clicked"
+                   FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#159eee"  TextColor="White" />
+        </StackLayout>
+               </ScrollView>
     </ContentPage.Content>
 </ContentPage>
 

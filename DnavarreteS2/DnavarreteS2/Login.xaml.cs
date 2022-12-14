@@ -12,14 +12,39 @@ namespace DnavarreteS2
             InitializeComponent();
         }
 
-      private void btnCalcular_Clicked(System.Object sender, System.EventArgs e)
+     
+
+       private void btnIniciar_Clicked(System.Object sender, System.EventArgs e)
         {
-            double dato1 = Convert.ToDouble(txtDato1.Text);
-            double dato2 = Convert.ToDouble(txtDato2.Text);
-            double dato3 = Convert.ToDouble(txtDato3.Text);
-            double resultado = dato1 + dato2 + dato3;
-            txtResultado.Text = resultado.ToString();
+            string usuario = txtUsuario.Text;
+            string contrasena = txtContrasena.Text;
+            bool ingresar = inisiarSesion(usuario, contrasena);
+            if (ingresar)
+            {
+                Navigation.PushAsync(new Calificaciones(usuario));
+            }
+            else
+            {
+                DisplayAlert("Alerta", "Usuario/Contraseña Incorrectos", "Cerrar");
+            }
         }
+
+        public bool inisiarSesion(string usuario, string contrasena)
+        {
+            bool inicio = true;
+            string user = "estudiante2022";
+            string pass = "uisrael2022";
+            if (user == usuario && pass == contrasena)
+            {
+                inicio = true;
+            }
+            else
+            {
+                inicio = false;
+            }
+            return inicio;
+        }
+
     }
 }
 

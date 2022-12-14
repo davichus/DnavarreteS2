@@ -10,7 +10,7 @@ namespace DnavarreteS2
         {
             InitializeComponent();
 
-            MainPage = new Calificaciones();
+            MainPage = new NavigationPage(new Login());
         }
 
         protected override void OnStart ()

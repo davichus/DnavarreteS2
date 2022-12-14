@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DnavarreteS2.Operaciones">
+    <ContentPage.Content>
+           <ScrollView>
+        <StackLayout>
+            <Label Text="Semana Dos Moviles" FontSize="18" TextColor="Blue" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="txtDato1" Placeholder="Ingresa el dato 1" Keyboard="Numeric"/>
+            <Entry x:Name="txtDato2" Placeholder="Ingresa el dato 2" Keyboard="Numeric" />
+            <Entry x:Name="txtDato3" Placeholder="Ingresa el dato 3" Keyboard="Numeric" />
+            <Entry x:Name="txtResultado" Placeholder="Resultado" IsEnabled="False" />
+            <Button x:Name="btnCalcular" Text="Calcular" Clicked="btnCalcular_Clicked"/>
+
+            </StackLayout>
+         </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+

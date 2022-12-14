@@ -631,3 +631,4 @@
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2.Android/obj/Debug/res/drawable/tch.png

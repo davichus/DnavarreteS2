@@ -5,6 +5,7 @@
     x:Class="DnavarreteS2.Calificaciones">
     <ContentPage.Content>
         <StackLayout>
+            <Label x:Name="txtUsuario"  FontSize="20" TextColor="#159eee"/>
             <Label Text="Calculo de Notas" HorizontalTextAlignment="Center" FontSize="20" TextColor="Red"/>
               <Label Text="Parcial 1" HorizontalTextAlignment="Center" FontSize="18" TextColor="Blue"/>
               <Entry x:Name="txtNseguimiento" Placeholder="Ingresa Nota Seguimiento" TextChanged="txtNseguimiento_TextChanged" Keyboard="Numeric"/>

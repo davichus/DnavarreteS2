@@ -7,9 +7,10 @@ namespace DnavarreteS2
 {
     public partial class Calificaciones : ContentPage
     {
-        public Calificaciones()
+        public Calificaciones(string usuario)
         {
             InitializeComponent();
+            txtUsuario.Text = usuario;
         }
 
         private void btnVerificar_Clicked(System.Object sender, System.EventArgs e)

@@ -6,7 +6,6 @@
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/Calificaciones.xaml.g.cs
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/Login.xaml.g.cs
-/Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/DnavarreteS2.AssemblyInfoInputs.cache
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/DnavarreteS2.AssemblyInfo.cs
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/DnavarreteS2.csproj.CoreCompileInputs.cache
@@ -14,3 +13,4 @@
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/DnavarreteS2.dll
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/ref/DnavarreteS2.dll
 /Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/DnavarreteS2.pdb
+/Users/davidnavarrete/Projects/DnavarreteS2/DnavarreteS2/DnavarreteS2/obj/Debug/netstandard2.0/Operaciones.xaml.g.cs
