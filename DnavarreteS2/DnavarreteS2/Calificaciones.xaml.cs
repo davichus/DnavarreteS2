@@ -63,7 +63,7 @@ namespace DnavarreteS2
         {
             try
             {
-                if (Convert.ToDouble(txtNseguimiento.Text) > 10)
+                if (Convert.ToDouble(txtNseguimiento.Text) > 10) 
                 {
                     DisplayAlert("Alerta", "Solo se permite numero de 1 a 10", "Cerrar");
                 }
