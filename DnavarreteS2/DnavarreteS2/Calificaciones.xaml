@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="DnavarreteS2.Calificaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Calculo de Notas" HorizontalTextAlignment="Center" FontSize="20" TextColor="Red"/>
+              <Label Text="Parcial 1" HorizontalTextAlignment="Center" FontSize="18" TextColor="Blue"/>
+              <Entry x:Name="txtNseguimiento" Placeholder="Ingresa Nota Seguimiento" TextChanged="txtNseguimiento_TextChanged" Keyboard="Numeric"/>
+              <Entry x:Name="txtNexamen" Placeholder="Ingresa Nota Examen" TextChanged="txtNexamen_TextChanged" Keyboard="Numeric"/>
+              <Entry x:Name="txtNparcial1" Placeholder="Resultado" IsEnabled="False" />
+
+              <Label Text="Parcial 2" HorizontalTextAlignment="Center" FontSize="18" TextColor="Blue"/>
+              <Entry x:Name="txtNseguimiento2" Placeholder="Ingresa Nota Seguimiento" TextChanged="txtNseguimiento2_TextChanged" Keyboard="Numeric"/>
+              <Entry x:Name="txtNexamen2" Placeholder="Ingresa Nota Examen" TextChanged="txtNexamen2_TextChanged" Keyboard="Numeric"/>
+              <Entry x:Name="txtNparcial2" Placeholder="Resultado" IsEnabled="False" />
+
+             <Label Text="Nota Final" HorizontalTextAlignment="Center" FontSize="18" TextColor="Green"/>
+             <Entry x:Name="txtNFinal" Placeholder="Nota Final" IsEnabled="False"  Keyboard="Numeric"/>
+
+             <Label Text="Estado" x:Name="lblestado" HorizontalTextAlignment="Center" FontSize="18" TextColor="Green"/>
+            <Button x:Name="btnVerificar" Text="Verificar Nota" Clicked="btnVerificar_Clicked"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
+
