@@ -1,39 +1,43 @@
 ﻿<Properties StartupConfiguration="{BCDA359D-8156-4735-8B04-5915DE0716F7}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_27" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DnavarreteS2.iOS FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.DnavarreteS2.Android PreferredExecutionTarget="Android.pixel_5_-_api_27" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_27" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DnavarreteS2/DnavarreteS2/Calificaciones.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DnavarreteS2/DnavarreteS2/Login.xaml.cs">
     <Files>
-      <File FileName="DnavarreteS2/DnavarreteS2/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="DnavarreteS2/DnavarreteS2/MainPage.xaml" />
-      <File FileName="DnavarreteS2/DnavarreteS2/App.xaml" />
+      <File FileName="DnavarreteS2/DnavarreteS2/App.xaml" Line="1" Column="1" />
       <File FileName="DnavarreteS2/DnavarreteS2/App.xaml.cs" />
       <File FileName="DnavarreteS2/DnavarreteS2/Login.xaml" />
-      <File FileName="DnavarreteS2/DnavarreteS2/Login.xaml.cs" />
+      <File FileName="DnavarreteS2/DnavarreteS2/Login.xaml.cs" Line="24" Column="67" />
       <File FileName="DnavarreteS2/DnavarreteS2/Calificaciones.xaml" />
-      <File FileName="DnavarreteS2/DnavarreteS2/Calificaciones.xaml.cs" Line="74" Column="1" />
+      <File FileName="DnavarreteS2/DnavarreteS2/Calificaciones.xaml.cs" />
+      <File FileName="DnavarreteS2/DnavarreteS2/Operaciones.xaml" />
+      <File FileName="DnavarreteS2/DnavarreteS2/Operaciones.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DnavarreteS2" expanded="True" selected="True">
+          <Node name="DnavarreteS2" expanded="True">
             <Node name="DnavarreteS2" expanded="True">
-              <Node name="App.xaml" expanded="True" />
               <Node name="Calificaciones.xaml" expanded="True" />
-              <Node name="Login.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Login.xaml" expanded="True">
+                <Node name="Login.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="DnavarreteS2.iOS" expanded="True" />
+            <Node name="DnavarreteS2.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
